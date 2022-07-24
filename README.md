@@ -27,3 +27,18 @@ $ create-react-app .
 $ npm run start 
 ```
 => 브라우저에 localhost:3000 으로 열리면서 리액트 샘플페이지 열림
+
+* 빌드 (배포파일 빌드 & build 디렉토리 생김)
+```
+$ npm run build  
+```
+
+* build 디렉토리를 기준으로 서버를 실행해라.
+```
+$ npx serve -s build 
+```
+=> localhost:3000 으로 접속 시 페이지 확인가능.   
+=> 기존에 그냥 npm run start 했을 때보다 페이지 리로드시 다운로드 용량이 훨씬 줄어들것을 확인가능하다. (154kb)
+
+
+
