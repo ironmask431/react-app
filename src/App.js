@@ -43,6 +43,7 @@ class App extends Component {
             <div className="App">
                 <Subject></Subject>
                 <TOC></TOC>
+
                 <Content></Content>
             </div>
         );
